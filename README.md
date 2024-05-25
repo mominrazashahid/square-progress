@@ -13,7 +13,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Demo 
 
-![Demo Image](./demo-image.png)
+![Demo Image](https://github.com/mominrazashahid/square-progress/raw/master/demo-image.png)
 
 ## How to use 
 
