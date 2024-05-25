@@ -3,8 +3,8 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
-      "fancy-input": [
-        "./dist/fancy-input"
+      "ng-progress-square": [
+        "./dist/progress-square"
       ]
     },
     "outDir": "./dist/out-tsc",
