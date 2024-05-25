@@ -15,6 +15,24 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ![Demo Image](./demo-image.png)
 
+## How to use 
+
+```html
+<ng-progress-square [value]="10" color="#007BFF" colorBackground="#B3D4FF"></ng-progress-square>
+
+<ng-progress-square [value]="30" color="#007BFF" colorBackground="#B3D4FF"></ng-progress-square>
+<ng-progress-square [value]="40" color="#6F42C1" colorBackground="#E9DFF7"></ng-progress-square>
+<ng-progress-square [value]="50" color="#6F42C1" colorBackground="#E9DFF7"></ng-progress-square>
+
+<ng-progress-square [value]="60" color="#00008B" colorBackground="#ADD8E6"></ng-progress-square>
+<ng-progress-square [value]="70" color="#006400" colorBackground="#ADFF2F"></ng-progress-square>
+
+<ng-progress-square [value]="80" color="#8B0000" colorBackground="#FFA07A"></ng-progress-square>
+
+```
+
+
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
