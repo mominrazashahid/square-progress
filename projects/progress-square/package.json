@@ -1,6 +1,9 @@
 {
   "name": "ng-progress-square",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "scripts": {
+    "build": "ng build progress-square"
+  },
   "peerDependencies": {
     "@angular/common": "^17.3.0",
     "@angular/core": "^17.3.0"

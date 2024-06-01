@@ -1,0 +1,25 @@
+<body>
+  <!-- ================================ LINEAR PROGRESS ================================ -->
+
+  <!-- Animation Linear Progress square -->
+  
+  <div class="progress-bar" [ngStyle]="{ 'background-color': colorBackground }" *ngIf="animate && type=== 'linear'" >
+    <div
+      [@increaseWidth]="{
+        value: isOpen ? 'start' : 'end',
+        params: { color: color, value: getMileStonePercentage() }
+      }"
+      class="progress-custom"
+    ></div>
+  </div>
+
+ <!-- Simple Linear Progress square -->
+
+ <div class="progress-bar" [ngStyle]="{'background-color': colorBackground}" *ngIf="!animate && type=== 'linear'">
+  <div
+    [ngStyle]="{ width: getMileStonePercentage() + '%'  , 'background-color': color }"
+    class="progress-custom"
+  ></div>
+</div>
+
+</body>
