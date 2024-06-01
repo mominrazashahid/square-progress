@@ -1,24 +1,23 @@
-# Fancy Input
+# Square Progress
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
+Angular version 17.3.7.
 
-## Code scaffolding
+# install
 
-Run `ng generate component component-name --project progress-square` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project progress-square`.
-> Note: Don't forget to add `--project progress-square` or else it will be added to the default project in your `angular.json` file. 
+npm i progress-square
 
-## Build
+## Demo
 
-Run `ng build progress-square` to build the project. The build artifacts will be stored in the `dist/` directory.
+![Demo Image](https://github.com/mominrazashahid/square-progress/raw/master/demo-image.png)
 
-## Publishing
+## How to use
 
-After building your library with `ng build progress-square`, go to the dist folder `cd dist/progress-square` and run `npm publish`.
+```html
+<!-- Linear progress with animation  -->
 
-## Running unit tests
+<ng-progress-square [value]="50" color="#007BFF" colorBackground="#B3D4FF" [animate]="true"></ng-progress-square>
 
-Run `ng test progress-square` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<!-- Linear progress without animation  -->
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<ng-progress-square [value]="50" color="#6F42C1" colorBackground="#E9DFF7" [animate]="true"></ng-progress-square>
+```

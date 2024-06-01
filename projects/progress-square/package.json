@@ -1,6 +1,6 @@
 {
-  "name": "ng-progress-square",
-  "version": "0.0.4",
+  "name": "progress-square",
+  "version": "0.0.6",
   "scripts": {
     "build": "ng build progress-square"
   },
@@ -12,12 +12,17 @@
     "tslib": "^2.3.0"
   },
   "sideEffects": false,
-  "keywords": ["angular", "progress", "square", "animation", "loading"],
+  "keywords": [
+    "angular",
+    "progress",
+    "square",
+    "animation",
+    "loading"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/mominrazashahid/square-progress"
   },
   "description": "Square progress bar for angular ",
-  "author": "Momim Raza Shahid <mominrazashahid0@gmail.com> ",
-
+  "author": "Momim Raza Shahid <mominrazashahid0@gmail.com> "
 }
