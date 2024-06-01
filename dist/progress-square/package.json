@@ -1,6 +1,6 @@
 {
-  "name": "ng-progress-square",
-  "version": "0.0.2",
+  "name": "progress-square",
+  "version": "0.0.6",
   "peerDependencies": {
     "@angular/common": "^17.3.0",
     "@angular/core": "^17.3.0"
@@ -9,17 +9,30 @@
     "tslib": "^2.3.0"
   },
   "sideEffects": false,
+  "keywords": [
+    "angular",
+    "progress",
+    "square",
+    "animation",
+    "loading"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mominrazashahid/square-progress"
+  },
+  "description": "Square progress bar for angular ",
+  "author": "Momim Raza Shahid <mominrazashahid0@gmail.com> ",
+  "module": "fesm2022/progress-square.mjs",
+  "typings": "index.d.ts",
   "exports": {
     "./package.json": {
       "default": "./package.json"
     },
     ".": {
       "types": "./index.d.ts",
-      "esm2022": "./esm2022/ng-progress-square.mjs",
-      "esm": "./esm2022/ng-progress-square.mjs",
-      "default": "./fesm2022/ng-progress-square.mjs"
+      "esm2022": "./esm2022/progress-square.mjs",
+      "esm": "./esm2022/progress-square.mjs",
+      "default": "./fesm2022/progress-square.mjs"
     }
-  },
-  "module": "fesm2022/ng-progress-square.mjs",
-  "typings": "index.d.ts"
+  }
 }

@@ -82,4 +82,4 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.3.9", ngImpor
  */
 
 export { ProgressSquareComponent };
-//# sourceMappingURL=ng-progress-square.mjs.map
+//# sourceMappingURL=progress-square.mjs.map

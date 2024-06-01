@@ -1,5 +1,5 @@
 /**
  * Generated bundle index. Do not edit.
  */
-/// <amd-module name="ng-progress-square" />
+/// <amd-module name="progress-square" />
 export * from './public-api';
