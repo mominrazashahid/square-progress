@@ -12,5 +12,7 @@
     "tslib": "^2.3.0"
   },
   "sideEffects": false,
-  "exports": {}
+  "exports": {},
+  "keywords": ["angular", "progress", "square", "animation", "loading"]
+
 }
