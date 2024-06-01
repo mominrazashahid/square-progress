@@ -24,5 +24,6 @@
     "url": "https://github.com/mominrazashahid/square-progress"
   },
   "description": "Square progress bar for angular ",
-  "author": "Momim Raza Shahid <mominrazashahid0@gmail.com> "
+  "author": "Moman Raza <mominrazashahid0@gmail.com> ",
+  "license": "MIT"
 }
