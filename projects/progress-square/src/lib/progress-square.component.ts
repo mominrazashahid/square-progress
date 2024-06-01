@@ -39,7 +39,7 @@ import { CommonModule } from '@angular/common';
     ]),
   ],
 })
-export class ProgressSquareComponent implements OnInit {
+export class ProgressSquare implements OnInit {
   @Input() value: Number = 30;
   @Input() color: string = '#4a7bff';
   @Input() colorBackground: string = '#11154a';
